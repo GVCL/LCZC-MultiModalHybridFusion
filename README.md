@@ -15,7 +15,7 @@ The fusion models are implemented on So2SatLCZ42 data and evaluation metrics is 
 
 
 
-The final classification output from each fusion model is uploaded here https://huggingface.co/datasets/ancythomas/output/tree/main. This output has the trained model obtained for each fusion strategy trained for a period of 100 epochs on So2SatLCZ42 data . Also, the output for the ablation and band grouping experiments for fusion models FM1, FM2, FM3 and FM4 are available here.
+The final classification output from each fusion model is uploaded here https://huggingface.co/datasets/ancythomas/TrainedFusionModel/tree/main. This output has the trained model obtained for each fusion strategy trained for a period of 100 epochs on So2SatLCZ42 data . Also, the output for the ablation and band grouping experiments for fusion models FM1, FM2, FM3 and FM4 are available here.
 
 output/
 
