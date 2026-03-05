@@ -1,6 +1,6 @@
 #i!/usr/bin/env python
 
-#print ('test1')
+
 import numpy as np
 import matplotlib.cm as cm
 
