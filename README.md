@@ -1,8 +1,6 @@
 MultiModal Hybrid Fusion Strategies for Local Climate Zone Classification
-
-Introduction
-
-Rapid urbanization alters land surface characteristics through increased building density, construction materials, transportation infrastructure, and various anthropogenic activities. As a result, urban areas often experience warmer temperatures compared to their surrounding rural regions, a phenomenon known as the Urban Heat Island (UHI) effect. UHI intensifies extreme heat events and can influence local environmental conditions such as precipitation patterns and air pollution levels. 
+   Introduction
+      Rapid urbanization alters land surface characteristics through increased building density, construction materials, transportation infrastructure, and various anthropogenic activities. As a result, urban areas often experience warmer temperatures compared to their surrounding rural regions, a phenomenon known as the Urban Heat Island (UHI) effect. UHI intensifies extreme heat events and can influence local environmental conditions such as precipitation patterns and air pollution levels. 
 
 Understanding the spatial structure of urban environments is therefore important for climate studies, urban planning, and environmental monitoring. Traditional land cover classification systems provide only a limited number of urban categories. To address this limitation, the Ian D. Stewart and Timothy R. Oke (2012) introduced Local Climate Zone (LCZ) framework  which consist of  17 classes;   10 built up class (LCZ 1–10) and 7 natural class (LCZ A–G). 
 
