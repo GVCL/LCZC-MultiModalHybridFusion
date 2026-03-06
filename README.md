@@ -1,6 +1,6 @@
 # MultiModal Hybrid Fusion Strategies for Local Climate Zone Classification
 
-##  Introduction
+##  I. Introduction
    
 Rapid urbanization alters land surface characteristics through increased building density, construction materials, transportation infrastructure, and various anthropogenic activities. As a result, urban areas often experience warmer temperatures compared to their surrounding rural regions, a phenomenon known as the Urban Heat Island (UHI) effect. UHI intensifies extreme heat events and can influence local environmental conditions such as precipitation patterns and air pollution levels. 
 
@@ -8,7 +8,7 @@ Understanding the spatial structure of urban environments is therefore important
 
 In this work, we develop and implement deep learning-based multimodal fusion strategies to integrate SAR and multispectral data for LCZ classification. The models are based on convolutional neural network (CNN) architectures and employ a hybrid fusion strategy that combines data- and feature-level fusion.  
 
-## Overview of the repository:
+## II. Overview of the repository:
 
 This repository includes implementations of multiple fusion models. The models for  different fusion strategies of SAR and MSI data from Sentinel-1 (S1) and Sentinel-2 (S2), respectively, for LCZ classification, that extend a baseline hybrid fusion architecture with additional mechanisms including attention mechanism, multiscale Gaussian smoothing, and late fusion.
 
@@ -20,7 +20,7 @@ This repository includes implementations of multiple fusion models. The models f
 
 (iv)	FM4-model.py - A decision-level fusion model, which uses a weighted combination of CNN and U-Net outputs of SAR and MSI modalities, respectively. 
 
-## Data:
+## III. Data:
 
 The models are trained and evaluated using the So2Sat LCZ42 data. This dataset can be accessed from http://doi.org/10.14459/2018mp1483140. 
 
@@ -32,7 +32,7 @@ This dataset provides:
 
 - Local Climate Zone labels 
 
-## Requirements:
+## IV. Requirements:
 
 Dependencies for running the models include:
 
@@ -52,11 +52,11 @@ Dependencies for running the models include:
    
     matplotlib
 
-## Install Dependencies:
+## V. Install Dependencies:
 
        pip install tensorflow keras  numpy scipy scikit-learn matplotlib
 
-## How to use the repository:
+## VI. How to use the repository:
 
 ### 1.  Clone the repository
             git clone https://github.com/GVCL/LCZC-MultiModalHybridFusion.git
@@ -149,7 +149,7 @@ Decision level weighted fusion
 
                FM4-.2-100.h5   FM4G-.2-100.h5  
 
-### 5. Applications
+### VII. Applications
    
 Theproposed fusion models support research in:
 
@@ -162,7 +162,7 @@ Theproposed fusion models support research in:
 •	Local Climate Zone analysis
 
 
-## Citation
+## VIII. Citation
 
 If you use this repository in your research, please cite the related publication (to be added).  
 
