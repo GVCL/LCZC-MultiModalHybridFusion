@@ -141,17 +141,7 @@ a indicates data-level fusion; b for feature-level fusion;  G indicates Band Gro
 
 Baseline Hybrid Fusion Model 
 
-  FM1-100.h5 
-
- FM1G-100.h5
-
-FM1a-100.h5
-
-FM1aG-100.h5
-
-FM1b-100.h5
-
-FM1bG-100.h5
+                FM1-100.h5    FM1G-100.h5   FM1a-100.h5   FM1aG-100.h5  FM1b-100.h5 FM1bG-100.h5
 
 
 Hybrid fusion with Attention mechanism
@@ -184,7 +174,7 @@ FM4-.2-100.h5
 
 FM4G-.2-100.h5
 
-###5. Applications
+### 5. Applications
    
 Theproposed fusion models support research in:
 
@@ -197,7 +187,7 @@ Theproposed fusion models support research in:
 •	Local Climate Zone analysis
 
 
-Citation
+## Citation
 
 If you use this repository in your research, please cite the related publication (to be added).  
 
