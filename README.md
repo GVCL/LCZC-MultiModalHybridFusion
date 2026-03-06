@@ -59,19 +59,19 @@ Install Dependencies:
 How to use the repository:
 
 1.  Clone the repository
-           git clone https://github.com/GVCL/LCZC-MultiModalHybridFusion.git
+            git clone https://github.com/GVCL/LCZC-MultiModalHybridFusion.git
 
            cd HyLCZC-MultiModalHybridFusion
 
-      ls 
+           ls 
 
-      FM1-model.py
+           FM1-model.py
 
-      FM2-model.py
+           FM2-model.py
 
-      FM3-model.py
+           FM3-model.py
 
-      FM4-model.py
+           FM4-model.py
 
 3. Prepare the Dataset
    
@@ -81,37 +81,37 @@ How to use the repository:
    
     To run  any fusion model
    
-python FM1-model.py
+             python FM1-model.py
 
-python FM1-model.py
+             python FM1-model.py
 
 Inorder to run the model for the complete dataset of 352366 patches, need a high memory server. This code was executed on a high memory node of configuration high-memory compute node of 2× Intel Xeon Cascade Lake 8268, 24 cores, 2.9 GHz, processors with 768 GB memory. The model is run for a period of 100 epochs.
 
 Batch Scirpt used to run on high memory compute node:
 
-#!/bin/sh
+              #!/bin/sh
 
-#SBATCH -N 1
+              #SBATCH -N 1
 
-#SBATCH --ntasks-per-node=1
+              #SBATCH --ntasks-per-node=1
 
-#SBATCH --time=72:00:00
+              #SBATCH --time=72:00:00
+ 
+              #SBATCH --exclusive
 
-#SBATCH --exclusive
+              #SBATCH --job-name=fm1
 
-#SBATCH --job-name=fm1
+              #SBATCH --error=fm1.%J
 
-#SBATCH --error=fm1.%J
+              #SBATCH --output=fm1.python.%J
 
-#SBATCH --output=fm1.python.%J
+              #SBATCH --partition=hm
 
-#SBATCH --partition=hm
+              conda init
 
-conda init
+              conda activate tmp
 
-conda activate tmp
-
-time python FM1-model.py
+               time python FM1-model.py
 
 For the FM1 model, took 209m18.615s to complete the run.
 
