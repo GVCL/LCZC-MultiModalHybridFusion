@@ -56,7 +56,7 @@ Dependencies for running the models include:
 
        pip install tensorflow keras  numpy scipy scikit-learn matplotlib
 
-## VI. How to use the repository:
+## VI. How to use the repository
 
 ### 1.  Clone the repository
             git clone https://github.com/GVCL/LCZC-MultiModalHybridFusion.git
