@@ -1,10 +1,3 @@
-# Example headings
-
-## Sample Section
-
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-
-
 # MultiModal Hybrid Fusion Strategies for Local Climate Zone Classification
 
 ##  Introduction
@@ -146,33 +139,15 @@ Baseline Hybrid Fusion Model
 
 Hybrid fusion with Attention mechanism
 
-FM2-100.h5
-
-FM2G-100.h5
-
-FM2b-100.h5
-
-FM2bG-100.h5
+               FM2-100.h5   FM2G-100.h5  FM2b-100.h5  FM2bG-100.h5
 
 Hybrid fusion with Multiscale feature extraction
 
-FM3-100.h5
-
-FM3Gfinal-100.h5
-
-FM3a-100.h5
-
-FM3aGfinal-100.h5
-
-FM3b-100.h5
-
-FM3bGfinal-100.h5
+               FM3-100.h5   FM3Gfinal-100.h5   FM3a-100.h5  FM3aGfinal-100.h5   FM3b-100.h5 
 
 Decision level weighted fusion
 
-FM4-.2-100.h5
-
-FM4G-.2-100.h5
+               FM4-.2-100.h5   FM4G-.2-100.h5  
 
 ### 5. Applications
    
