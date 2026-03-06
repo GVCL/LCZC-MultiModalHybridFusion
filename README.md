@@ -54,25 +54,25 @@ Dependencies for running the models include:
 
 Install Dependencies:
 
-   pip install tensorflow keras  numpy scipy scikit-learn matplotlib
+       pip install tensorflow keras  numpy scipy scikit-learn matplotlib
 
 How to use the repository:
 
 1.  Clone the repository
    
-git clone https://github.com/GVCL/LCZC-MultiModalHybridFusion.git
+     git clone https://github.com/GVCL/LCZC-MultiModalHybridFusion.git
 
-cd HyLCZC-MultiModalHybridFusion
+    cd HyLCZC-MultiModalHybridFusion
 
-ls 
+    ls 
 
-FM1-model.py
+    FM1-model.py
 
-FM2-model.py
+    FM2-model.py
 
-FM3-model.py
+    FM3-model.py
 
-FM4-model.py
+    FM4-model.py
 
 3. Prepare the Dataset
    
