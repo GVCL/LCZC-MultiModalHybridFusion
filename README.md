@@ -115,15 +115,21 @@ Decision level weighted fusion
 FM4-.2-100.h5
 FM4G-.2-100.h5
 
-5. Applications 
+5. Applications
+   
 The proposed fusion models support research in:
+
 •	Remote sensing data fusion
+
 •	Deep learning for Earth observation
+
 •	Transfer learning 
+
 •	Local Climate Zone analysis
 
 
 Citation
+
 If you use this repository in your research, please cite the related publication (to be added).  
 
 
