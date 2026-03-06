@@ -1,6 +1,6 @@
-Hybrid Fusion Strategies  for Local Climate Zone Classification
+MultiModal Hybrid Fusion Strategies for Local Climate Zone Classification
 
-##Introduction
+Introduction
 
 Rapid urbanization alters land surface characteristics through increased building density, construction materials, transportation infrastructure, and various anthropogenic activities. As a result, urban areas often experience warmer temperatures compared to their surrounding rural regions, a phenomenon known as the Urban Heat Island (UHI) effect. UHI intensifies extreme heat events and can influence local environmental conditions such as precipitation patterns and air pollution levels. 
 
@@ -10,11 +10,11 @@ In this work, we develop and implement deep learning-based multimodal fusion str
 
 Overview of the repository
 
-This repository includes implementations of multiple fusion models. The models for  different fusion strategies of SAR and MSI data from Sentinel-1 (S1) and Sentinel-2 (S2), respectively, for LCZ classification, that extend a baseline hybrid fusion architecture with additional mechanisms including attention mechanism, multiscle Gaussian smoothing, and late fusion.
+This repository includes implementations of multiple fusion models. The models for  different fusion strategies of SAR and MSI data from Sentinel-1 (S1) and Sentinel-2 (S2), respectively, for LCZ classification, that extend a baseline hybrid fusion architecture with additional mechanisms including attention mechanism, multiscale Gaussian smoothing, and late fusion.
 
-(i)	FM1-model.py- A baseline hybrid fusion model for pixel- and feature-level integration. 
-(ii) FM2-model.py - An attention-based hybrid fusion, which is the FM1 model enhanced with self- and cross-attention mechanisms.
-(iii) FM3-model - A multi-scale hybrid fusion, which is the FM1 model refined with multi-scale Gaussian smoothing of each data modality. 
+(i)   FM1-model.py- A baseline hybrid fusion model for pixel- and feature-level integration 
+(ii)  FM2-model.py - An attention-based hybrid fusion model
+(iii) FM3-model.py - A multi-scale hybrid fusion model
 (iv)	FM4-model.py - A decision-level fusion model, which uses a weighted combination of CNN and U-Net outputs of SAR and MSI modalities, respectively. 
 
 Data 
