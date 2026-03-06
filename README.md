@@ -1,3 +1,10 @@
+# Example headings
+
+## Sample Section
+
+## This'll be a _Helpful_ Section About the Greek Letter Θ!
+
+
 MultiModal Hybrid Fusion Strategies for Local Climate Zone Classification
 
  Introduction
