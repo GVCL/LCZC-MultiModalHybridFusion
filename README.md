@@ -8,7 +8,7 @@ Understanding the spatial structure of urban environments is therefore important
 
 In this work, we develop and implement deep learning-based multimodal fusion strategies to integrate SAR and multispectral data for LCZ classification. The models are based on convolutional neural network (CNN) architectures and employ a hybrid fusion strategy that combines data- and feature-level fusion.  
 
-## II. Overview of the repository:
+## II. Overview of the repository
 
 This repository includes implementations of multiple fusion models. The models for  different fusion strategies of SAR and MSI data from Sentinel-1 (S1) and Sentinel-2 (S2), respectively, for LCZ classification, that extend a baseline hybrid fusion architecture with additional mechanisms including attention mechanism, multiscale Gaussian smoothing, and late fusion.
 
@@ -20,7 +20,7 @@ This repository includes implementations of multiple fusion models. The models f
 
 (iv)	FM4-model.py - A decision-level fusion model, which uses a weighted combination of CNN and U-Net outputs of SAR and MSI modalities, respectively. 
 
-## III. Data:
+## III. Data
 
 The models are trained and evaluated using the So2Sat LCZ42 data. This dataset can be accessed from http://doi.org/10.14459/2018mp1483140. 
 
@@ -32,7 +32,7 @@ This dataset provides:
 
 - Local Climate Zone labels 
 
-## IV. Requirements:
+## IV. Requirements
 
 Dependencies for running the models include:
 
@@ -52,7 +52,7 @@ Dependencies for running the models include:
    
     matplotlib
 
-## V. Install Dependencies:
+## V. Install Dependencies
 
        pip install tensorflow keras  numpy scipy scikit-learn matplotlib
 
@@ -115,7 +115,7 @@ Batch Scirpt used to run on high memory compute node:
 
 For the FM1 model, took 209m18.615s to complete the run.
 
-### 4. Load Pretrained model weightes
+### 4. Load Pretrained model weights
    
    Pretrained models are available for download at:   
 https://huggingface.co/datasets/ancythomas/TrainedFusionModel/tree/main
