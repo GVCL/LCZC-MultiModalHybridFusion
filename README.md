@@ -124,19 +124,19 @@ These files contain the trained weights for the different fusion strategies. Aft
 
 To load a pretrained model:
 
-from tensorflow.keras.models import load_model
+            from tensorflow.keras.models import load_model
 
-model = load_model("FM1G-100.h5")
+            model = load_model("FM1G-100.h5")
 
-ls TrainedFusionModel/
+             ls TrainedFusionModel/
 
 a indicates data-level fusion; b for feature-level fusion;  G indicates Band Grouping 
 
 Baseline Hybrid Fusion Model 
 
-FM1-100.h5 
+  FM1-100.h5 
 
-FM1G-100.h5
+ FM1G-100.h5
 
 FM1a-100.h5
 
