@@ -38,7 +38,7 @@ Dependencies for running the models include:
 
     Python 3.10.13
    
-   TensorFlow  
+    TensorFlow  
    
     Keras
    
