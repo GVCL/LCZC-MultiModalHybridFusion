@@ -36,21 +36,21 @@ Requirements:
 
 Dependencies for running the models include:
 
-Python 3.10.13
+ -Python 3.10.13
 
-TensorFlow  
+ -TensorFlow  
 
-Keras
+ -Keras
 
-NumPy
+ -NumPy
 
-SciPy
+ -SciPy
 
-GDAL
+ -GDAL
 
-scikit-learn
+ -scikit-learn
 
-matplotlib
+ -matplotlib
 
 Install Dependencies:
 
