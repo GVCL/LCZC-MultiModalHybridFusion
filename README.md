@@ -54,7 +54,7 @@ Dependencies for running the models include:
 
 Install Dependencies:
 
- pip install tensorflow keras  numpy scipy scikit-learn matplotlib
+   pip install tensorflow keras  numpy scipy scikit-learn matplotlib
 
 How to use the repository:
 
