@@ -59,10 +59,9 @@ Install Dependencies:
 How to use the repository:
 
 1.  Clone the repository
-   
-       git clone https://github.com/GVCL/LCZC-MultiModalHybridFusion.git
+           git clone https://github.com/GVCL/LCZC-MultiModalHybridFusion.git
 
-      cd HyLCZC-MultiModalHybridFusion
+           cd HyLCZC-MultiModalHybridFusion
 
       ls 
 
