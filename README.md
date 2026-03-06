@@ -1,6 +1,6 @@
 MultiModal Hybrid Fusion Strategies for Local Climate Zone Classification
 
-Introduction
+<br>Introduction
 
 <br>Rapid urbanization alters land surface characteristics through increased building density, construction materials, transportation infrastructure, and various anthropogenic activities. As a result, urban areas often experience warmer temperatures compared to their surrounding rural regions, a phenomenon known as the Urban Heat Island (UHI) effect. UHI intensifies extreme heat events and can influence local environmental conditions such as precipitation patterns and air pollution levels. 
 
