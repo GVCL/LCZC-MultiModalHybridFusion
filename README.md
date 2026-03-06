@@ -17,7 +17,7 @@ This repository includes implementations of multiple fusion models. The models f
 (iii) FM3-model.py - A multi-scale hybrid fusion model
 (iv)	FM4-model.py - A decision-level fusion model, which uses a weighted combination of CNN and U-Net outputs of SAR and MSI modalities, respectively. 
 
-Data 
+Data:
 
 The models are trained and evaluated using the So2Sat LCZ42 data. This dataset can be accessed from http://doi.org/10.14459/2018mp1483140. 
 
@@ -26,7 +26,8 @@ This dataset provides:
 •	Sentinel-2 multispectral imagery
 •	Local Climate Zone labels 
 
-Requirements
+Requirements:
+
 Dependencies for running the models include:
 Python 3.10.13
 TensorFlow  
