@@ -26,11 +26,11 @@ The models are trained and evaluated using the So2Sat LCZ42 data. This dataset c
 
 This dataset provides:
 
-  - Sentinel-1 SAR imagery
+    - Sentinel-1 SAR imagery
  
-  - Sentinel-2 multispectral imagery
+    - Sentinel-2 multispectral imagery
 
-  - Local Climate Zone labels 
+    - Local Climate Zone labels 
 
 Requirements:
 
