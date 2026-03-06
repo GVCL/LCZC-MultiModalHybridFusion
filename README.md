@@ -25,8 +25,11 @@ Data:
 The models are trained and evaluated using the So2Sat LCZ42 data. This dataset can be accessed from http://doi.org/10.14459/2018mp1483140. 
 
 This dataset provides:
+
 •	Sentinel-1 SAR imagery
+
 •	Sentinel-2 multispectral imagery
+
 •	Local Climate Zone labels 
 
 Requirements:
@@ -34,12 +37,19 @@ Requirements:
 Dependencies for running the models include:
 
 Python 3.10.13
+
 TensorFlow  
+
 Keras
+
 NumPy
+
 SciPy
+
 GDAL
+
 scikit-learn
+
 matplotlib
 
 Install Dependencies:
@@ -125,32 +135,47 @@ a indicates data-level fusion; b for feature-level fusion;  G indicates Band Gro
 
 Baseline Hybrid Fusion Model 
 
-FM1-100.h5
+FM1-100.h5 
+
 FM1G-100.h5
+
 FM1a-100.h5
+
 FM1aG-100.h5
+
 FM1b-100.h5
+
 FM1bG-100.h5
+
 
 Hybrid fusion with Attention mechanism
 
 FM2-100.h5
+
 FM2G-100.h5
+
 FM2b-100.h5
+
 FM2bG-100.h5
 
 Hybrid fusion with Multiscale feature extraction
 
 FM3-100.h5
+
 FM3Gfinal-100.h5
+
 FM3a-100.h5
+
 FM3aGfinal-100.h5
+
 FM3b-100.h5
+
 FM3bGfinal-100.h5
 
 Decision level weighted fusion
 
 FM4-.2-100.h5
+
 FM4G-.2-100.h5
 
 5. Applications
